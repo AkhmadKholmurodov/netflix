@@ -1,0 +1,55 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+    height: 30px;
+    padding: 20px;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    width: 100%;
+    
+}
+.nav__contents{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__logo{
+    position:fixed;
+    left: 0;
+    width: 90px;
+    object-fit: contain;
+    left: 20px;
+    cursor:pointer;
+}
+.nav__avatar{
+    cursor: pointer;
+    position: fixed;
+    width: 30px;
+    right: 20px;
+    object-fit: contain;
+
+}
+.nav__black{
+    background-color: #000;
+ 
+}
+
+.nav__types{
+    position: relative;
+    display: flex;
+    color: #fff;
+    position: space-around;
+    width: 100%;
+    right: -20%;
+}
+.childTypes{
+    margin: 10px;
+    list-style: none;
+    direction: none;
+}
+.childTypes:hover{
+    cursor: pointer;
+}
